@@ -1,0 +1,23 @@
+/* Target the custom baseCls we specified below. */
+.et-tileview {
+    padding: 0 10px 10px 0;
+    background-image: url(/resources/images/noisy_grid/noisy_grid.png);
+}
+
+/* Target the tiled view item. Make it float using inline-block. */
+.et-tileview-item {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.bigfont {
+    font-size: 1.375em;
+    text-shadow: rgba(0,0,0,0.5) 0 -0.08em 0;
+}
+
+.et-login {
+    background-image: url(/resources/images/noisy_grid/noisy_grid.png);
+}

@@ -1,0 +1,31 @@
+{
+    "success": true,
+    "results": [{
+        "name": "考勤登记",
+        "xclass": "TouchApp.view.checkin",
+        "badge": "",
+        "icon": "resources/images/Faenza/apps/scalable/bash.svg"
+    }, {
+        "name": "消息中心",
+        "xclass": "Ext.Panel",
+        "badge": "123",
+        "icon": "resources/images/Faenza/apps/scalable/abrt.svg",
+        "config": {
+            "title": "thrid",
+            "html": "world"
+        }
+    }, {
+        "name": "机型信息",
+        "xclass": "Ext.Map",
+        "badge": "",
+        "icon": "resources/images/Faenza/apps/scalable/addressbook.svg",
+        "config": {
+            "useCurrentLocation": true
+        }
+    }, {
+        "name": "销售出库",
+        "xclass": "TouchApp.view.StoreTest",
+        "badge": "",
+        "icon": "resources/images/Faenza/apps/scalable/audacity.svg"
+    }]
+}
